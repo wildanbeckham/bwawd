@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.bg-biru {
+  background-color: #614ef5 !important;
+}
+
+.bg-birutua {
+  background-color: #6552ff !important;
+}
+
+.bg-hitam {
+  background-color: #150544 !important;
+}
+
+h1 {
+  color: #150544;
+}
+
+/* Navbar */
+nav .btn-nav {
+  background-color: #150544 !important;
+  border: 2px solid #150544;
+  color: #fff;
+}
+
+nav .btn-nav:hover {
+  border: 2px solid #150544;
+  background-color: #fff !important;
+}
+
+#navbar {
+  padding: 20px 0px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#navbar.scrolled {
+  background-color: #fff;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* Navbar */
+
+/* Features */
+#features {
+  background-image: url('../images/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+
+#features .icon-bg {
+  border-radius: 26px;
+}
+/* Features */
+
+/* Pricing */
+#pricing {
+  color: #150544;
+  background: rgb(231, 246, 255);
+  background: linear-gradient(0deg, rgba(231, 246, 255, 1) 50%, rgba(255, 255, 255, 1) 50%);
+}
+
+#pricing .card-2 {
+  border: 2px solid #150544;
+}
+
+#pricing .btn-1:hover {
+  background-color: #fff !important;
+  border: 1px solid #6552ff;
+  color: #6552ff !important;
+}
+
+#pricing .btn-2:hover {
+  background-color: #fff !important;
+  border: 1px solid #150544;
+  color: #150544 !important;
+}
+/* Pricing */
+
+/* Pricing */
+#clients {
+  background-image: url('../images/bg2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#clients img {
+  float: inline-start;
+}
+/* Pricing */
+
+/* Clients */
+#clients .pic {
+  border-radius: 36px;
+}
+/* Clients */
+
+@media only screen and (max-width: 991px) {
+  #pricing .price {
+    display: none;
+  }
+
+  #features .container {
+    padding: 0 !important;
+  }
+}
